@@ -34,13 +34,13 @@ os_vendors!(
   "qubes" => "dnf", "yum";
   "eurolinux" => "dnf", "yum";
   // pacman
-  "arch" => "pacman";
-  "manjaro" => "pacman";
-  "endeavouros" => "pacman";
-  "arcolinux" => "pacman";
-  "garuda" => "pacman";
-  "antergos" => "pacman";
-  "kaos" => "pacman";
+  "arch" => "pacman", "yay";
+  "manjaro" => "pacman", "yay";
+  "endeavouros" => "pacman", "yay";
+  "arcolinux" => "pacman", "yay";
+  "garuda" => "pacman", "yay";
+  "antergos" => "pacman", "yay";
+  "kaos" => "pacman", "yay";
   // apk
   "alpine" => "apk";
   "postmarket" => "apk";
@@ -78,16 +78,16 @@ os_vendors!(
 
 vendors![
     {
-        name: "upt",
+        name: "please",
         confirm: "-y/--yes",
-        install: "upt install $",
-        remove: "upt remove/uninstall $",
-        upgrade: "upt upgrade $",
-        search: "upt search $",
-        info: "upt info/show $",
-        update_index: "upt update",
-        upgrade_all: "upt upgrade",
-        list_installed: "upt list",
+        install: "please install $",
+        remove: "please remove/uninstall $",
+        upgrade: "please upgrade $",
+        search: "please search $",
+        info: "please info/show $",
+        update_index: "please update",
+        upgrade_all: "please upgrade",
+        list_installed: "please list",
     },
     {
         name: "apk",

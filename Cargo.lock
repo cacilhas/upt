@@ -59,8 +59,8 @@ dependencies = [
 ]
 
 [[package]]
-name = "upt"
-version = "0.8.1"
+name = "upt-please"
+version = "0.1.0"
 dependencies = [
  "which",
 ]

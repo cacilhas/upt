@@ -1,7 +1,7 @@
 use std::io::Error;
 use std::path::Path;
 use std::{env, process};
-use upt::{detect_os, detect_vendor, init_vendor, run_command, UptError, Vendor};
+use upt_please::{detect_os, detect_vendor, init_vendor, run_command, UptError, Vendor};
 
 fn main() {
     match run() {
