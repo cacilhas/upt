@@ -45,6 +45,7 @@ fn run() -> Result<i32, Box<dyn std::error::Error>> {
 
 fn create_cmd(vendor: &Vendor, args: &[String], os: &str) -> Result<String, UptError> {
     let tool = match std::env::var("UPT_TOOL") {
+        Ok(v) if v.is_empty() => detect_vendor(os)?,
         Ok(v) => init_vendor(&v)?,
         Err(_) => detect_vendor(os)?,
     };
