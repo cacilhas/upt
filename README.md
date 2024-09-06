@@ -1,6 +1,6 @@
 # UPT Please
 
-UPT Please is a fork of [Upt][], which provides a unified command interface to manage packages for any operating system.
+UPT Please is a [fork][] of [Upt][], which provides a unified command interface to manage packages for any operating system.
 
 Just like Upt, UPT Please relies on the platform’s package management tool to perform the task, it’s more like a wrapper or adaptive alias.
 
@@ -115,6 +115,7 @@ See the [LICENSE-MIT][] files for license details.
 Original credits to [sigoden][].
 
 [Cargo]: https://doc.rust-lang.org/stable/cargo/
+[fork]: https://github.com/sigoden/upt
 [LICENSE-MIT]: https://github.com/cacilhas/upt-please/blob/master/LICENSE-MIT
 [sigoden]: https://crates.io/users/sigoden
 [Upt]: https://crates.io/crates/upt
