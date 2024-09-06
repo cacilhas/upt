@@ -1,10 +1,8 @@
 # UPT Please
 
-UPT Please is a fork of [Upt][], which provides a unified command interface to
-manage packages for any operating system.
+UPT Please is a fork of [Upt][], which provides a unified command interface to manage packages for any operating system.
 
-Just like Upt, UPT Please relies on the platform’s package management tool to
-perform the task, it’s more like a wrapper or adaptive alias.
+Just like Upt, UPT Please relies on the platform’s package management tool to perform the task, it’s more like a wrapper or adaptive alias.
 
 ## Install
 
@@ -20,9 +18,7 @@ cargo install upt-please
 
 ### Unified command interface
 
-Each operating system has its own package management tool, which requires
-different commands to complete the same operation. This can be inconvenient when
-switching between or trying new OSs.
+Each operating system has its own package management tool, which requires different commands to complete the same operation. This can be inconvenient when switching between or trying new OSs.
 
 ```sh
 apt install $pkg          # Ubuntu, Debian, Linux Mint...
@@ -39,11 +35,9 @@ With `please`, You just need to remember one command:
 please install $pkg          # Works on any OS
 ```
 
-UPT Please identifies the OS type and runs the appropriate package management
-tool to install `$pkg`.
+UPT Please identifies the OS type and runs the appropriate package management tool to install `$pkg`.
 
-At the moment I’m editing this document, the only addition over Upt is [Yay][]
-support for Arch Linux and variants.
+At the moment I’m editing this document, the only addition over Upt is [Yay][] support for Arch Linux and variants.
 
 ### OS Tools
 
@@ -99,14 +93,11 @@ support for Arch Linux and variants.
 +------------------------------------------------------+----------------------+
 ```
 
-UPT Please will determine which package management tool to use based on the
-above table.
+UPT Please will determine which package management tool to use based on the above table.
 
-Some platforms may support multiple package management tools, upt selects one of
-them in order.
+Some platforms may support multiple package management tools, upt selects one of them in order.
 
-You can specify the package manager that UPT should use by setting the
-`UPT_TOOL` environment variable.
+You can specify the package manager that UPT should use by setting the `UPT_TOOL` environment variable.
 
 ```sh
 UPT_TOOL=brew upt install $pkg            # equal to `brew install $pkg`
@@ -117,8 +108,7 @@ UPT_TOOL=nix-env upt install $pkg         # equal to `nix-env -i $pkg`
 
 Copyright (c) 2024 Rodrigo Cacilhas <montegasppa@cacilhas.info>
 
-UPT Please is made available under the terms of either the MIT License in
-respect to [Upt license][].
+UPT Please is made available under the terms of either the MIT License in respect to [Upt license][].
 
 See the LICENSE-MIT files for license details.
 
