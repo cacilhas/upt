@@ -97,7 +97,7 @@ UPT Please will determine which package management tool to use based on the abov
 
 Some platforms may support multiple package management tools, upt selects one of them in order.
 
-You can specify the package manager that UPT should use by setting the `UPT_TOOL` environment variable.
+You can specify the package manager that UPT Please should use by setting the `UPT_TOOL` environment variable.
 
 ```sh
 UPT_TOOL=brew upt install $pkg            # equal to `brew install $pkg`
