@@ -108,7 +108,7 @@ UPT_TOOL=nix-env upt install $pkg         # equal to `nix-env -i $pkg`
 
 Copyright (c) 2024 Rodrigo Cacilhas <montegasppa@cacilhas.info>
 
-UPT Please is made available under the terms of either the MIT License in respect to [Upt license][].
+UPT Please is made available under the terms of the MIT License in respect to [Upt license][].
 
 See the [LICENSE-MIT][] files for license details.
 
