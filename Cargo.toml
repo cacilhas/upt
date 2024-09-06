@@ -2,12 +2,13 @@
 name = "upt-please"
 version = "0.1.0"
 edition = "2021"
-authors = ["sigoden <sigoden@gmail.com>"]
+authors = ["Rodrigo Cacilhas <montegasppas@cacilhas.info>"]
 description = "Universal package management tool for any OS"
-license = "MIT OR Apache-2.0"
-homepage = "https://github.com/sigoden/upt"
-repository = "https://github.com/sigoden/upt"
-categories = ["command-line-utilities"]
+license = "MIT"
+homepage = "https://github.com/cacilhas/upt-please"
+repository = "https://github.com/cacilhas/upt-please"
+readme = "README.md"
+categories = ["cli", "command-line-utilities"]
 keywords = ["universal", "package", "management"]
 
 [dependencies]

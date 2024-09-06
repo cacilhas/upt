@@ -110,10 +110,13 @@ Copyright (c) 2024 Rodrigo Cacilhas <montegasppa@cacilhas.info>
 
 UPT Please is made available under the terms of either the MIT License in respect to [Upt license][].
 
-See the LICENSE-MIT files for license details.
+See the [LICENSE-MIT][] files for license details.
+
+Original credits to [sigoden][].
 
 [Cargo]: https://doc.rust-lang.org/stable/cargo/
-[LICENS-MIT]: https://github.com/cacilhas/upt-please/blob/master/LICENSE-MIT
-[Upt]: https://github.com/sigoden/upt
+[LICENSE-MIT]: https://github.com/cacilhas/upt-please/blob/master/LICENSE-MIT
+[sigoden]: https://crates.io/users/sigoden
+[Upt]: https://crates.io/crates/upt
 [Upt license]: https://github.com/sigoden/upt?tab=readme-ov-file#license
 [Yay]: https://github.com/Jguer/yay
