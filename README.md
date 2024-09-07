@@ -104,6 +104,12 @@ UPT_TOOL=brew upt install $pkg            # equal to `brew install $pkg`
 UPT_TOOL=nix-env upt install $pkg         # equal to `nix-env -i $pkg`
 ```
 
+
+## Changelog and TODO
+
+[TODO][]
+
+
 ## License
 
 Copyright (c) 2024 Rodrigo Cacilhas <montegasppa@cacilhas.info>
@@ -119,6 +125,7 @@ Original credits to [sigoden][].
 [LICENSE]: https://github.com/cacilhas/upt-please/blob/master/LICENSE
 [MIT License]: https://opensource.org/license/mit
 [sigoden]: https://crates.io/users/sigoden
+[TODO]: https://github.com/cacilhas/upt-please/blob/master/TODO.md
 [Upt]: https://crates.io/crates/upt
 [Upt license]: https://github.com/sigoden/upt?tab=readme-ov-file#license
 [Yay]: https://github.com/Jguer/yay

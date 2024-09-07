@@ -1,0 +1,2 @@
+- Rewrite the whole code from scratch.
+- Remove support to rename executable for alternative interface.
