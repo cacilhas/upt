@@ -1,6 +1,6 @@
 [package]
 name = "upt-please"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Rodrigo Cacilhas <montegasppas@cacilhas.info>"]
 description = "Universal package management tool for any OS"
@@ -9,7 +9,7 @@ homepage = "https://github.com/cacilhas/upt-please"
 repository = "https://github.com/cacilhas/upt-please"
 readme = "README.md"
 categories = ["command-line-utilities"]
-keywords = ["cli", "universal", "package", "management"]
+keywords = []
 
 [dependencies]
 which = "6.0.1"
